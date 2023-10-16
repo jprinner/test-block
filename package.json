@@ -25,5 +25,8 @@
 		"@wordpress/stylelint-config": "^21.26.0",
 		"prettier": "npm:wp-prettier@^3.0.3",
 		"stylelint": "^14.16.1"
+	},
+	"dependencies": {
+		"@wordpress/components": "^25.9.1"
 	}
 }
