@@ -1,20 +1,26 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 3,
-	"name": "create-block/boilerplate",
+	"name": "create-block/latest-posts",
 	"version": "0.1.0",
-	"title": "Boilerplate",
+	"title": "Latest Posts",
 	"category": "widgets",
 	"icon": "smiley",
 	"description": "Example block scaffolded with Create Block tool.",
-	"keywords": [ "boilerplate" ],
+	"keywords": [ "latest-posts", "latest", "posts" ],
 	"example": {},
 	"supports": {
 		"html": false
 	},
-	"textdomain": "boilerplate",
+	"textdomain": "latest-posts",
 	"editorScript": "file:./index.js",
 	"editorStyle": "file:./index.css",
 	"style": "file:./style-index.css",
-	"viewScript": "file:./view.js"
+	"viewScript": "file:./view.js",
+	"attributes": {
+		"latestPosts": {
+			"type": "array",
+			"default": []
+		}
+	}
 }
