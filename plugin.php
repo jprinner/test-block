@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       Boilerplate
+ * Plugin Name:       Latest Posts Test
  * Description:       Example block scaffolded with Create Block tool.
  * Requires at least: 6.1
  * Requires PHP:      7.0
